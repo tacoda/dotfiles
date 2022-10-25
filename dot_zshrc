@@ -1,14 +1,13 @@
 export EDITOR=nvim
 # export ERL_AFLAGS="-kernel shell_history enabled"
 
-
 export RUBY_CFLAGS="-Wno-error=implicit-function-declaration"
 
 export ASDF_DIR="$HOME/.asdf"
 source $ASDF_DIR/asdf.sh
 
 export PATH="$HOME/bin:$HOME/.cargo/bin:$HOME/.emacs.d/bin:$PATH"
-# source /Users/ijohnson/.asdf/installs/rust/stable/env
+# source $HOME/.asdf/installs/rust/stable/env
 source $HOME/.cargo/env
 
 source $HOME/.zsh_aliases
